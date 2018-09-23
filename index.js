@@ -1,9 +1,7 @@
-'use strict';
-const Hexo = require('hexo');
-const hexo = new Hexo(process.cwd(), {});
+'use strict'
+/* global hexo */
+const twitter = require('./social/twitter')
+const facebook = require('./social/facebook')
 
-const twitter = require('./social/twitter');
-const facebook = require('./social/facebook');
-
-hexo.extend.tag.register('twitter', twitter);
-hexo.extend.tag.register('facebook', facebook);
+hexo.extend.tag.register('twitter', twitter)
+hexo.extend.tag.register('facebook', facebook)
