@@ -4,8 +4,7 @@
   "description": "Hexo plugin for widgets of social media sites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "yo": "yo"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,6 @@
   },
   "homepage": "https://github.com/Ryuno-Ki/hexo-plugin-social#readme",
   "devDependencies": {
-    "generator-hexo-plugin": "0.0.12",
-    "yo": "2.0.5"
+    "hexo": "3.7.1"
   }
 }
