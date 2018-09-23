@@ -1,6 +1,6 @@
 {
   "name": "hexo-plugin-social",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hexo plugin for widgets of social media sites",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "widget"
   ],
   "author": {
-      "name": "André Jaenisch",
-      "url": "https://jaenis.ch"
+    "name": "André Jaenisch",
+    "url": "https://jaenis.ch"
   },
   "license": "MIT",
   "bugs": {
