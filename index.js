@@ -1,5 +1,6 @@
 'use strict';
-const hexo = require('hexo');
+const Hexo = require('hexo');
+const hexo = new Hexo(process.cwd(), {});
 
 const twitter = require('./social/twitter');
 const facebook = require('./social/facebook');
