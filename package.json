@@ -15,7 +15,10 @@
     "social media",
     "widget"
   ],
-  "author": "André Jaenisch",
+  "author": {
+      "name": "André Jaenisch",
+      "url": "https://jaenis.ch"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ryuno-Ki/hexo-plugin-social/issues"
